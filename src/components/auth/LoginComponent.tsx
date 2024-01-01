@@ -13,7 +13,7 @@ const LoginComponent = () => {
             src={ChronicleLogo}
             width={500}
             height={500}
-            alt="Picture of the author"
+            alt="Chronicle"
           />
           <Input size="md" label="Username" color="green" crossOrigin={undefined} />
           <Input size="lg" label="Password" color="green" icon={<i className="fas fa-heart" />} crossOrigin={undefined} />

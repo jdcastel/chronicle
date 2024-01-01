@@ -1,22 +1,31 @@
-.login-content{
-    /* min-width: 400px; */
-    
+.login{
+    z-index: 3;
 }
 
 .circle-top {
-    width: 100px;
-    height: 200px;
-    background: #09B45C;
+    width: 30vw;
+    height: calc(1vh + 60vw);
+    min-width: 150px;
+    min-height: 310px;
+    max-width: 220px;
+    max-height: 440px;
+    background: linear-gradient(to right top, #007639, #01813f, #038d46, #04984c, #06a453, #0baf5a, #0fbb61, #13c668, #19d472, #1fe27c, #23f086, #28ff90);
     border-radius: 100% 0 0 100% / 50% 0 0 50%;
     position: absolute;
-    top: 50px; 
+    top: 0px; 
     right: 0;
+    animation-duration: 1s;
+    z-index: 1;
 }
 
 .circle-bottom {
-    width: 160px;
-    height: 160px;
-    background-color: #09B45C;
+    width: 30vw; 
+    height: calc(1vh + 30vw); 
+    min-width: 150px; 
+    min-height: 150px;
+    max-width: 220px; 
+    max-height: 220px;
+    background: linear-gradient(to right top, #007639, #01813f, #038d46, #04984c, #06a453, #0baf5a, #0fbb61, #13c668, #19d472, #1fe27c, #23f086, #28ff90);
     border-radius: 0 100% 100% 0 / 0 100% 0 100%;
     position: absolute;
     bottom: 0;

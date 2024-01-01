@@ -11,7 +11,7 @@ const Login = () => {
   return (
     <>
     <div className="login">
-        <span className="circle-top"></span>
+        <span className="circle-top "></span>
         <div className="login-content">
             <LoginComponent />
         </div>
