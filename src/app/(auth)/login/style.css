@@ -1,0 +1,24 @@
+.login-content{
+    /* min-width: 400px; */
+    
+}
+
+.circle-top {
+    width: 100px;
+    height: 200px;
+    background: #09B45C;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    position: absolute;
+    top: 50px; 
+    right: 0;
+}
+
+.circle-bottom {
+    width: 160px;
+    height: 160px;
+    background-color: #09B45C;
+    border-radius: 0 100% 100% 0 / 0 100% 0 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

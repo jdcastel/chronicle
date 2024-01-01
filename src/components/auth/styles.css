@@ -1,0 +1,29 @@
+.login-button {
+    background-color: #09B45C;
+    margin-top: 10px;
+    width: 290px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button {
+    background-color: #79747E;
+    margin-top: 10px;
+    width: 290px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover{
+    background-color: rgba(9, 180, 92, 0.8);
+}
+.register-button:hover {
+    background-color: rgba(200, 200, 200, 0.9);
+}
+
+p{
+    margin-top: 2px;
+    color: #343C3E;
+    font-size: 11px;
+    text-align: right;
+}
