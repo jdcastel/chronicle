@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import RegisterComponent from '../../../components/auth/Register' 
 
 export const generateMetadata = () => {
   return {
@@ -8,7 +9,9 @@ export const generateMetadata = () => {
 
 const Register = () => {
   return (
-    <div>Register</div>
+    <>
+      <RegisterComponent />
+    </>
   )
 }
 

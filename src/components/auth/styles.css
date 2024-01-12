@@ -21,9 +21,10 @@
     background-color: rgba(200, 200, 200, 0.9);
 }
 
-.link{
-    margin-top: 2px;
-    color: #343C3E;
-    font-size: 12px;
-    text-align: right;
+.forgot-pass-link {
+    transition: color 0.3s ease; 
+}
+
+.forgot-pass-link:hover {
+    color: #09B45C; 
 }

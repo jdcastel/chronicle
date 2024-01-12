@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 import './style.css';
-import LoginComponent from '../../../components/auth/LoginComponent' 
+import LoginComponent from '../../../components/auth/Login' 
 export const generateMetadata = () => {
   return {
     title: 'Login',

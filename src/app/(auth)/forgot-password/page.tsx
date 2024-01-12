@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import ForgotPasswordComponent from '../../../components/auth/ForgotPassword' 
 
 export const generateMetadata = () => {
   return {
@@ -8,7 +9,9 @@ export const generateMetadata = () => {
 
 const ForgotPassword = () => {
   return (
-    <div>ForgotPassword</div>
+    <>
+      <ForgotPasswordComponent />
+    </>
   )
 }
 
